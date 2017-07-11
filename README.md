@@ -24,9 +24,9 @@ Schedule
 
 #### **PART I: Client-Side Web Development + API Fundamentals**
 
-#### **7/6:** [Introduction to the Web, APIs, & Data](https://github.com/callihiggins/Mashups/tree/master/01_02_The_Web_APIs_and_Data)
+#### **7/6:** [Introduction to the Web, APIs, & Data](https://github.com/ITP-Mashups/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-#### **7/11:** Web Dev 101
+#### **7/11:** [Web Dev 101](https://github.com/ITP-Mashups/Mashups/tree/master/02_Web_Dev_101)
 
 #### **7/13 - 7/18:** Making Things Happen On The Page
 
