@@ -32,7 +32,7 @@ Schedule
 
 #### **7/18:** [Making Things Happen On The Page](https://github.com/ITP-Mashups/Mashups/tree/master/04_Making_Things_Happen_On_The_Page)
 
-#### **7/20 - 7/25:** Structuring Your App
+#### **7/20 - 7/25:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
 
 #### **7/27: Midterm DUE**
 
