@@ -32,21 +32,21 @@ Schedule
 
 #### **7/18:** [Making Things Happen On The Page](https://github.com/ITP-Mashups/Mashups/tree/master/04_Making_Things_Happen_On_The_Page)
 
-#### **7/20 - 7/25:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
+#### **7/20 - 7/27:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
 
-#### **7/27: Midterm DUE**
+#### **7/29: Midterm DUE**
 
 #### **PART II: Client-Side Javascript Libraries**
 
-#### **7/29:** Dealing with Data
+#### **8/1:** Dealing with Data
 
-#### **8/1:** Graphs on Graphs on Graphs
+#### **8/2:** Graphs on Graphs on Graphs
 
 #### **8/3:** Animation Playstation & Sound & Video
 
-#### **8/3:** Server Plus Storage
+#### **8/8:** Server Plus Storage
 
-#### **8/9**: Final Project DUE
+#### **8/10**: Final Project DUE
 
 
 
