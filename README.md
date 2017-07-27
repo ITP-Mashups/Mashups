@@ -34,17 +34,15 @@ Schedule
 
 #### **7/20 - 7/27:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
 
-#### **7/29: Midterm DUE**
+#### **8/1: Midterm DUE**
 
 #### **PART II: Client-Side Javascript Libraries**
 
-#### **8/1:** Dealing with Data
+#### **8/2:** Dealing with Data
 
-#### **8/2:** Graphs on Graphs on Graphs
+#### **8/3:** Graphs on Graphs on Graphs
 
-#### **8/3:** Animation Playstation & Sound & Video
-
-#### **8/8:** Server Plus Storage
+#### **8/8:** Animation Playstation & Sound & Video
 
 #### **8/10**: Final Project DUE
 
