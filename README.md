@@ -34,7 +34,7 @@ Schedule
 
 #### **7/20 - 7/27:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
 
-#### **8/1: Midterm DUE**
+#### **8/1: Midterm DUE** [Dealing with Data](https://github.com/ITP-Mashups/Mashups/tree/master/08_Dealing_With_Data)
 
 #### **PART II: Client-Side Javascript Libraries**
 
