@@ -38,11 +38,11 @@ Schedule
 
 #### **PART II: Client-Side Javascript Libraries**
 
-#### **8/2:** Dealing with Data
+#### **8/2:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/09_Graphs_on_Graphs_on_Graphs)
 
-#### **8/3:** Graphs on Graphs on Graphs
+#### **8/3:** Animation Playstation
 
-#### **8/8:** Animation Playstation & Sound & Video
+#### **8/8:** Sound & Video
 
 #### **8/10**: Final Project DUE
 
