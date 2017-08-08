@@ -40,9 +40,9 @@ Schedule
 
 #### **8/2:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/09_Graphs_on_Graphs_on_Graphs)
 
-#### **8/3:** Animation Playstation
+#### **8/3:** [Animation Playstation](https://github.com/ITP-Mashups/Mashups/tree/master/10_Animation_Playstation)
 
-#### **8/8:** Sound & Video
+#### **8/8:** [Sound & Video](https://github.com/ITP-Mashups/Mashups/tree/master/11_Sound_and_Video)
 
 #### **8/10**: Final Project DUE
 
