@@ -1,8 +1,7 @@
 Mashups How To's
 ----------------
-* [Run A Local Host](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
-* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App_and_Git/Github_Pages)
-* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Heroku/Heroku_Node_Deploy)
+* [Run A Local Host](https://github.com/ITP-Mashups/Mashups/tree/master/03_Programming_101/Local_Server)
+* [Deploy To Github Pages](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App/Github_Pages)
 
 Open Data APIs
 --------------
@@ -42,7 +41,6 @@ Open Data APIs
   * [HealthCare.gov](https://www.healthcare.gov/developers/)
   * [New York State Open Data](https://data.ny.gov/browse?limitTo=apis)
   * [OpenSpending](http://community.openspending.org/help/api/)
-  * [Sunlight Foundation](http://sunlightfoundation.com/api/)
   * [USA.gov](http://www.usa.gov/About/developer-resources/developers.shtml#APIs)
 * Images
   * [Flickr](https://www.flickr.com/services/api/)
@@ -64,7 +62,6 @@ Open Data APIs
   * [LastFM](http://www.last.fm/api)
   * [NPR](http://dev.npr.org/)
   * [RapGenius](https://github.com/kenshiro-o/RapGenius-JS)
-  * [SoundCloud](http://developers.soundcloud.com/docs)
   * [Spotify](https://developer.spotify.com/)
 * News
   * [The Guardian](http://www.theguardian.com/open-platform)
