@@ -3,14 +3,14 @@ Mashups: Creating with Web APIs
 
 School: NYU Tisch School of the Arts  
 Program: Interactive Telecommunications Program  
-Course Number: ITPG-GT 2611-001(6503)  
-Semester: Summer 2017  
-Class: Tuesday & Thursday, 3:30 - 6:15pm   
-Room: 721 Broadway, 4th Floor, Room 406  
+Course Number: ITPG-GT 2611  
+Semester: Spring 2018 
+Class: Monday, 3:20 - 6:15pm
+Room: 721 Broadway, 4th Floor, Room 50  
 
 Instructor: Calli Higgins  
 Email: calli@nyu.edu  
-Office Hours: TBD
+Office Hours: Email for hours
 
 Course Description
 ------------------
@@ -24,27 +24,29 @@ Schedule
 
 #### **PART I: Client-Side Web Development + API Fundamentals**
 
-#### **7/6:** [Introduction to the Web, APIs, & Data](https://github.com/ITP-Mashups/Mashups/tree/master/01_The_Web_APIs_and_Data)
+#### **1/22:** [Introduction to the Web, APIs, & Data](https://github.com/ITP-Mashups/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-#### **7/11:** [Web Dev 101](https://github.com/ITP-Mashups/Mashups/tree/master/02_Web_Dev_101)
+#### **1/29:** [Web Dev 101](https://github.com/ITP-Mashups/Mashups/tree/master/02_Web_Dev_101)
 
-#### **7/13:** [Programming 101](https://github.com/ITP-Mashups/Mashups/tree/master/03_Programming_101)
+#### **2/5:** [Programming 101](https://github.com/ITP-Mashups/Mashups/tree/master/03_Programming_101)
 
-#### **7/18:** [Making Things Happen On The Page](https://github.com/ITP-Mashups/Mashups/tree/master/04_Making_Things_Happen_On_The_Page)
+#### **2/12:** [Making Things Happen On The Page](https://github.com/ITP-Mashups/Mashups/tree/master/04_Making_Things_Happen_On_The_Page)
 
-#### **7/20 - 7/27:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
+#### **2/26 - 3/5:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
 
-#### **8/1: Midterm DUE** [Dealing with Data](https://github.com/ITP-Mashups/Mashups/tree/master/08_Dealing_With_Data)
+#### **3/19: Midterm DUE** [Dealing with Data](https://github.com/ITP-Mashups/Mashups/tree/master/08_Dealing_With_Data)
 
 #### **PART II: Client-Side Javascript Libraries**
 
-#### **8/2:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/09_Graphs_on_Graphs_on_Graphs)
+#### **3/26:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/09_Graphs_on_Graphs_on_Graphs)
 
-#### **8/3:** [Animation Playstation](https://github.com/ITP-Mashups/Mashups/tree/master/10_Animation_Playstation)
+#### **4/2:** [Animation Playstation](https://github.com/ITP-Mashups/Mashups/tree/master/10_Animation_Playstation)
 
-#### **8/8:** [Sound & Video](https://github.com/ITP-Mashups/Mashups/tree/master/11_Sound_and_Video)
+#### **4/9:** [Sound & Video](https://github.com/ITP-Mashups/Mashups/tree/master/11_Sound_and_Video)
 
-#### **8/10**: Final Project DUE
+#### **4/16**: [Databases & Final Project Workshop]
+
+#### **4/23**: Final Project DUE
 
 
 
@@ -123,7 +125,7 @@ Checklist:
 
 **Project 2**:
 
-Project 2 will involve creating a single page (client-side only) web experience that ideally leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Three, etc.
+Project 2 will involve creating a single page (client-side only) web experience that ideally leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Three, etc. Server side storage will be covered and encouraged to be used, but is not a requirement.
 	
 Cheklist:    
 * Client-side web development.  
@@ -135,7 +137,7 @@ Attendance & Participation
 --------------------------
 
 * Attendance is mandatory. Every class builds off the previous one so it is vital to be present for every lesson. Unexcused absences or habitual lateness will negatively impact your final grade for the class. If you are going to be late or absent, please email me **in advance**. If you have an emergency, please let me know as soon as you can.
-* More than two unexcused absences (more than 20 minutes late to class) will result in a lower final grade (i.e. B+ to B). More than five unexcused absences will result in an F.
+* More than two unexcused absences (more than 20 minutes late to class) will result in a lower final grade (i.e. B+ to B). More than three unexcused absences will result in an F.
 * Showing up on time, engaging in the class discussion, and offering advice and input during class is a major part of your grade. Participating in class is helpful for me to get to know you as an individual and keep track of your progress, but most importantly, it provides you and your classmates the opportunity to share failures, successes, and insights on the work you are doing.
 * Please turn in all assignments on time. For each day an assignment is late, it will result in a lower final grade (i.e. B+ to B).
 * You are expected to show work in class. This includes a working web site, a kind-of working web site, a non-working web site, a failed web site, a web site that works but not the way you expected it to work, and so on. Basically, don’t be afraid to volunteer to show what you did do or failed to do. Explaining your work to other people is a great way to better understand the material and answer questions for yourself. Plus, showing work that did not function as expected is not a sign of failure, it is an opportunity to learn. 
