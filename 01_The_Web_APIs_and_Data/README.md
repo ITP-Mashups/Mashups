@@ -4,12 +4,14 @@
 
 #### II. Course Overview
 * h/t to [Craig Protzel](https://github.com/craigprotzel) for creating the course and providing many materials and examples
+* About Me [callihiggins.com](http://www.callihiggins.com)
 
 #### III. Student Work Examples
 * [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
 * [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
 * [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
 * [VJenerate](http://vjenerate.com/) - Jonathan Sparks
+* [](https://webhose.io/demo/cool-useless-demo)
 
 #### IV. Student Introductions
 
@@ -38,22 +40,22 @@
 	* API Evangelist - [History of APIs](https://history.apievangelist.com/)
 	* David Weinberger, Harvard - [The Rise, Fall, and Possible Rise of Open News Platforms](https://shorensteincenter.org/open-news-platforms-david-weinberger/)
 	* Beth Novecek - [NYU Gov Lab](http://www.thegovlab.org/)
-* Mashup Reading
-	* [What We Talk About When We Talk Girl Talk]](https://soundstudiesblog.com/2011/04/18/what-we-talk-about-when-we-talk-girl-talk/)
-	* [The Ecstasy of Influence](https://harpers.org/archive/2007/02/the-ecstasy-of-influence)
-	* [The Rhetoric of Remix](http://journal.transformativeworks.org/index.php/twc/article/view/358/279)
-	* [Videographic Deformations](https://justtv.wordpress.com/2016/01/12/videographic-deformations-pechakuchas/)
-* Inspriation
-	* [The Wilderness Downtown](http://www.thewildernessdowntown.com/)
 
 
 #### VI. Homework
 * [Join our Slack group](https://join.slack.com/t/itpmashupss18/shared_invite/enQtMzAxNjgwMTU1NDQwLTAxMjVhZjNjODM3MTc5NzkzNDkzMmZmZDExZTRkNzkzMWFhNjYwZGUyY2FhMzNjZGRjODA3MGE5N2Y3NDZiZDY)
-* Find two open source APIs that interest you and be prepared to discuss them in class (Inspration can be found at (http://programmableweb.com), but be aware of deprecated resources)
+* Find two open source APIs that interest you post them in the #assignments channel
 * Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 * Create a github account if you do not already have one. If this is your first time working with git, I recommend downloading and  [Git Desktop](https://desktop.github.com/) to create your account.
-* Read - [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
-* Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
+* Read
+	* [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
+	* [What We Talk About When We Talk Girl Talk]](https://soundstudiesblog.com/2011/04/18/what-we-talk-about-when-we-talk-girl-talk/)
+	* [The Ecstasy of Influence](https://harpers.org/archive/2007/02/the-ecstasy-of-influence)
+	* [The Rhetoric of Remix](http://journal.transformativeworks.org/index.php/twc/article/view/358/279)
+	* [Videographic Deformations](https://justtv.wordpress.com/2016/01/12/videographic-deformations-pechakuchas/)
+* Explore 
+	* [Programmable Web](https://www.programmableweb.com/category)
+	* [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
 * Additional Recommendations
 	* HTML & CSS Tutorials  
 		* [Khan Academy - Intro to HTML/CSS: Making Webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
