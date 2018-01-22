@@ -31,6 +31,7 @@
 
 #### VI. Homework
 * Read - Eloquent Javascript Chapters [One](http://eloquentjavascript.net/01_values.html) and [Two](http://eloquentjavascript.net/02_program_structure.html)
+* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html) **up to but not including the section on SVGs**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](http://www.nyu.edu/lynda)
 * Explore - [Tuts - Design School for Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
 * Answer - the first 2 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle and FizzBuzz](http://eloquentjavascript.net/02_program_structure.html). Create a .html and .js file. Your code answers should be written in the .js file as functions. Try to link your .js file to your .html file so that the functions can be run in the browser console when you load the .html file. In your .html file, you only need to write some basic markup stating the names of the 3 functions to call in the console. *Do not* create a pull request for this assignment- we'll do that together at the start of class.
