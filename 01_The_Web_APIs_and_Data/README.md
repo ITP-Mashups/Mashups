@@ -26,6 +26,7 @@
 	* [ProPublica DataStore](https://www.propublica.org/datastore/) & [APIs](https://www.propublica.org/datastore/apis)
 	* [HTTP Bin](http://httpbin.org/)	
 	* [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
+	* [Map Light](https://maplight.org/data/)
 	* [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
 	* [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
 	* [Open-Notify.org](http://open-notify.org/)
@@ -37,14 +38,21 @@
 	* API Evangelist - [History of APIs](https://history.apievangelist.com/)
 	* David Weinberger, Harvard - [The Rise, Fall, and Possible Rise of Open News Platforms](https://shorensteincenter.org/open-news-platforms-david-weinberger/)
 	* Beth Novecek - [NYU Gov Lab](http://www.thegovlab.org/)
+* Mashup Reading
+	* [What We Talk About When We Talk Girl Talk]](https://soundstudiesblog.com/2011/04/18/what-we-talk-about-when-we-talk-girl-talk/)
+	* [The Ecstasy of Influence](https://harpers.org/archive/2007/02/the-ecstasy-of-influence)
+	* [The Rhetoric of Remix](http://journal.transformativeworks.org/index.php/twc/article/view/358/279)
+	* [Videographic Deformations](https://justtv.wordpress.com/2016/01/12/videographic-deformations-pechakuchas/)
+* Inspriation
+	* [The Wilderness Downtown](http://www.thewildernessdowntown.com/)
+
 
 #### VI. Homework
+* [Join our Slack group](https://join.slack.com/t/itpmashupss18/shared_invite/enQtMzAxNjgwMTU1NDQwLTAxMjVhZjNjODM3MTc5NzkzNDkzMmZmZDExZTRkNzkzMWFhNjYwZGUyY2FhMzNjZGRjODA3MGE5N2Y3NDZiZDY)
+* Find two open source APIs that interest you and be prepared to discuss them in class (Inspration can be found at (http://programmableweb.com), but be aware of deprecated resources)
 * Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
-* Install - a code linter in your text editor. (For Sublime, I use [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/) with [jsHint](https://github.com/SublimeLinter/SublimeLinter-jshint)
 * Create a github account if you do not already have one. If this is your first time working with git, I recommend downloading and  [Git Desktop](https://desktop.github.com/) to create your account.
-* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html) **up to but not including the section on SVGs**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
 * Read - [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
-* Explore - [Programmable Web](http://programmableweb.com) (Note: lots of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
 * Additional Recommendations
 	* HTML & CSS Tutorials  
