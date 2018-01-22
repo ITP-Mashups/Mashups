@@ -36,7 +36,7 @@
 	* Jeff Bezos - [Amazon Service Interfaces Memo](http://jesusgilhernandez.com/2012/10/18/jeff-bezos-mandate-amazon-and-web-services/)
 	* API Evangelist - [History of APIs](https://history.apievangelist.com/)
 	* David Weinberger, Harvard - [The Rise, Fall, and Possible Rise of Open News Platforms](https://shorensteincenter.org/open-news-platforms-david-weinberger/)
-	* Beth Novecek - [NYU Gov Lab](http://www.thegovlab.org/
+	* Beth Novecek - [NYU Gov Lab](http://www.thegovlab.org/)
 
 #### VI. Homework
 * Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
