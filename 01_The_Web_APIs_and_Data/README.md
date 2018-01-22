@@ -49,7 +49,7 @@
 * Create a github account if you do not already have one. If this is your first time working with git, I recommend downloading and  [Git Desktop](https://desktop.github.com/) to create your account.
 * Read
 	* [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
-	* [What We Talk About When We Talk Girl Talk]](https://soundstudiesblog.com/2011/04/18/what-we-talk-about-when-we-talk-girl-talk/)
+	* [What We Talk About When We Talk Girl Talk](https://soundstudiesblog.com/2011/04/18/what-we-talk-about-when-we-talk-girl-talk/)
 	* [The Ecstasy of Influence](https://harpers.org/archive/2007/02/the-ecstasy-of-influence)
 	* [The Rhetoric of Remix](http://journal.transformativeworks.org/index.php/twc/article/view/358/279)
 	* [Videographic Deformations](https://justtv.wordpress.com/2016/01/12/videographic-deformations-pechakuchas/)
