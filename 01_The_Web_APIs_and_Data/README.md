@@ -14,7 +14,7 @@
 #### IV. Student Introductions
 
 #### V. Lecture: The Web, APIs, & Data
-* [Lecture Slides]https://www.dropbox.com/s/pfpwd8c1ujppntg/Mashups_Spring18_Lecture.pdf?dl=0)
+* [Lecture Slides](https://www.dropbox.com/s/pfpwd8c1ujppntg/Mashups_Spring18_Lecture.pdf)
 * WWW Background
 	* [Andrew Blum - What Is The Internet Really?](https://www.ted.com/talks/andrew_blum_what_is_the_internet_really)
 	* [How the Web Works](https://medium.freecodecamp.org/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c)
