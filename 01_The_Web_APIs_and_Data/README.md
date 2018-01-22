@@ -8,22 +8,23 @@
 #### III. Student Work Examples
 * [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
 * [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
-* [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
 * [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
-* [Vjenerate](http://vjenerate.com/) - Jonathan Sparks
+* [VJenerate](http://vjenerate.com/) - Jonathan Sparks
 
 #### IV. Student Introductions
 
 #### V. Lecture: The Web, APIs, & Data
-* [Lecture Slides](https://www.dropbox.com/s/b4dzkncpkr25jc7/Mashups_Fall2016_Summer2017_Lecture_Upload.pdf)
+* [Lecture Slides]https://www.dropbox.com/s/pfpwd8c1ujppntg/Mashups_Spring18_Lecture.pdf?dl=0)
 * WWW Background
 	* [Andrew Blum - What Is The Internet Really?](https://www.ted.com/talks/andrew_blum_what_is_the_internet_really)
+	* [How the Web Works](https://medium.freecodecamp.org/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c)
 	* [What's In An HTTP Request](http://rve.org.uk/dumprequest)
 * API Examples & Resources
-	* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)  
+	* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) (Chrome PlugIn)  
 	* [OpenWeatherMap API](http://openweathermap.org/API)
 	* [Kanye REST](http://kanyerest.xyz/)
-	* [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
+	* [ProPublica DataStore](https://www.propublica.org/datastore/) & [APIs](https://www.propublica.org/datastore/apis)
+	* [HTTP Bin](http://httpbin.org/)	
 	* [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
 	* [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
 	* [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
@@ -31,6 +32,11 @@
 	* [Into the Okavango](http://intotheokavango.org/)
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
+* Why Open APIs?
+	* Jeff Bezos - [Amazon Service Interfaces Memo](http://jesusgilhernandez.com/2012/10/18/jeff-bezos-mandate-amazon-and-web-services/)
+	* API Evangelist - [History of APIs](https://history.apievangelist.com/)
+	* David Weinberger, Harvard - [The Rise, Fall, and Possible Rise of Open News Platforms](https://shorensteincenter.org/open-news-platforms-david-weinberger/)
+	* Beth Novecek - [NYU Gov Lab](http://www.thegovlab.org/
 
 #### VI. Homework
 * Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
