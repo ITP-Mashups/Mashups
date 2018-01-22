@@ -11,7 +11,7 @@
 * [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
 * [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
 * [VJenerate](http://vjenerate.com/) - Jonathan Sparks
-* [](https://webhose.io/demo/cool-useless-demo)
+* [Connected Politicians](https://webhose.io/demo/cool-useless-demo)
 
 #### IV. Student Introductions
 
