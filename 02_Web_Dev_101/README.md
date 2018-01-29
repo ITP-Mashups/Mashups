@@ -8,7 +8,6 @@
 #### II. Lecture - HTML & CSS Boot Camp
 * Setting up your page
 	* [Mashups HTML Boilerplate](https://github.com/ITP-Mashups/Mashups/tree/master/02_Web_Dev_101/HTML_Boilerplate)
-	* Adding elements
 	* [HTML5 Element List](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)	
 	* [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
 	* [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
