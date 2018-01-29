@@ -4,6 +4,9 @@
 * API ideas
 * Response to Reading
 * Discussion of New Aesethic & Mashups
+	* [The Sky On Trap Street](http://theskyontrapstreet-blog-blog.tumblr.com/)
+	* [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
+	* [The Wildnerness Downtown](http://www.thewildernessdowntown.com)
 
 #### II. Lecture - HTML & CSS Boot Camp
 * Setting up your page
