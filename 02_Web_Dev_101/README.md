@@ -7,6 +7,7 @@
 	* [The Sky On Trap Street](http://theskyontrapstreet-blog-blog.tumblr.com/)
 	* [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
 	* [The Wildnerness Downtown](http://www.thewildernessdowntown.com)
+	* [Mashups in Photography](http://www.dbg.nyc/personal-amusement-park/)
 
 #### II. Lecture - HTML & CSS Boot Camp
 * Setting up your page
