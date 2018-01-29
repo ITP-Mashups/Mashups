@@ -18,7 +18,6 @@
 	* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
 	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101) 
 	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
-	* [Bootstrap](http://getbootstrap.com/)
 	* [SASS](http://sass-lang.com)
 		*   In terminal- sass --watch style.scss:style.css
 
