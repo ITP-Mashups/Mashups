@@ -1,0 +1,12 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 18px; }
+
+.box {
+  width: 80px;
+  left: calc(50% - 40px);
+  position: relative; }
+  .box span {
+    color: red; }
+
+/*# sourceMappingURL=style.css.map */
