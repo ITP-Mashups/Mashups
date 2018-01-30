@@ -42,3 +42,8 @@
 * For Thursday 8/10
 	* Finish your final projects!
 	* [Github Pages](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App/Github_Pages)
+* Reading
+	* Revisit:
+		* [What We Talk About When We Talk Girl Talk](https://soundstudiesblog.com/2011/04/18/what-we-talk-about-when-we-talk-girl-talk/)
+		* [The Rhetoric of Remix](http://journal.transformativeworks.org/index.php/twc/article/view/358/279)
+		* [Videographic Deformations](https://justtv.wordpress.com/2016/01/12/videographic-deformations-pechakuchas/)

@@ -3,14 +3,14 @@ Mashups: Creating with Web APIs
 
 School: NYU Tisch School of the Arts  
 Program: Interactive Telecommunications Program  
-Course Number: ITPG-GT 2611-001(6503)  
-Semester: Summer 2017  
-Class: Tuesday & Thursday, 3:30 - 6:15pm   
-Room: 721 Broadway, 4th Floor, Room 406  
+Course Number: ITPG-GT 2611  
+Semester: Spring 2018 
+Class: Monday, 3:20 - 6:15pm
+Room: 721 Broadway, 4th Floor, Room 50  
 
 Instructor: Calli Higgins  
 Email: calli@nyu.edu  
-Office Hours: TBD
+Office Hours: Email for hours
 
 Course Description
 ------------------
@@ -24,27 +24,29 @@ Schedule
 
 #### **PART I: Client-Side Web Development + API Fundamentals**
 
-#### **7/6:** [Introduction to the Web, APIs, & Data](https://github.com/ITP-Mashups/Mashups/tree/master/01_The_Web_APIs_and_Data)
+#### **1/22:** [Introduction to the Web, APIs, & Data](https://github.com/ITP-Mashups/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-#### **7/11:** [Web Dev 101](https://github.com/ITP-Mashups/Mashups/tree/master/02_Web_Dev_101)
+#### **1/29:** [Web Dev 101](https://github.com/ITP-Mashups/Mashups/tree/master/02_Web_Dev_101)
 
-#### **7/13:** [Programming 101](https://github.com/ITP-Mashups/Mashups/tree/master/03_Programming_101)
+#### **2/5:** [Programming 101](https://github.com/ITP-Mashups/Mashups/tree/master/03_Programming_101)
 
-#### **7/18:** [Making Things Happen On The Page](https://github.com/ITP-Mashups/Mashups/tree/master/04_Making_Things_Happen_On_The_Page)
+#### **2/12:** [Making Things Happen On The Page](https://github.com/ITP-Mashups/Mashups/tree/master/04_Making_Things_Happen_On_The_Page)
 
-#### **7/20 - 7/27:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
+#### **2/26 - 3/5:** [Structuring Your App](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App)
 
-#### **8/1: Midterm DUE** [Dealing with Data](https://github.com/ITP-Mashups/Mashups/tree/master/08_Dealing_With_Data)
+#### **3/19: Midterm DUE** [Dealing with Data](https://github.com/ITP-Mashups/Mashups/tree/master/08_Dealing_With_Data)
 
 #### **PART II: Client-Side Javascript Libraries**
 
-#### **8/2:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/09_Graphs_on_Graphs_on_Graphs)
+#### **3/26:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/09_Graphs_on_Graphs_on_Graphs)
 
-#### **8/3:** [Animation Playstation](https://github.com/ITP-Mashups/Mashups/tree/master/10_Animation_Playstation)
+#### **4/2:** [Animation Playstation](https://github.com/ITP-Mashups/Mashups/tree/master/10_Animation_Playstation)
 
-#### **8/8:** [Sound & Video](https://github.com/ITP-Mashups/Mashups/tree/master/11_Sound_and_Video)
+#### **4/9:** [Sound & Video](https://github.com/ITP-Mashups/Mashups/tree/master/11_Sound_and_Video)
 
-#### **8/10**: Final Project DUE
+#### **4/16**: [Databases & Final Project Workshop]
+
+#### **4/23**: Final Project DUE
 
 
 
@@ -123,7 +125,7 @@ Checklist:
 
 **Project 2**:
 
-Project 2 will involve creating a single page (client-side only) web experience that ideally leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Three, etc.
+Project 2 will involve creating a single page (client-side only) web experience that ideally leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Three, etc. Server side storage will be covered and encouraged to be used, but is not a requirement.
 	
 Cheklist:    
 * Client-side web development.  
@@ -135,7 +137,7 @@ Attendance & Participation
 --------------------------
 
 * Attendance is mandatory. Every class builds off the previous one so it is vital to be present for every lesson. Unexcused absences or habitual lateness will negatively impact your final grade for the class. If you are going to be late or absent, please email me **in advance**. If you have an emergency, please let me know as soon as you can.
-* More than two unexcused absences (more than 20 minutes late to class) will result in a lower final grade (i.e. B+ to B). More than five unexcused absences will result in an F.
+* More than two unexcused absences (more than 20 minutes late to class) will result in a lower final grade (i.e. B+ to B). More than three unexcused absences will result in an F.
 * Showing up on time, engaging in the class discussion, and offering advice and input during class is a major part of your grade. Participating in class is helpful for me to get to know you as an individual and keep track of your progress, but most importantly, it provides you and your classmates the opportunity to share failures, successes, and insights on the work you are doing.
 * Please turn in all assignments on time. For each day an assignment is late, it will result in a lower final grade (i.e. B+ to B).
 * You are expected to show work in class. This includes a working web site, a kind-of working web site, a non-working web site, a failed web site, a web site that works but not the way you expected it to work, and so on. Basically, don’t be afraid to volunteer to show what you did do or failed to do. Explaining your work to other people is a great way to better understand the material and answer questions for yourself. Plus, showing work that did not function as expected is not a sign of failure, it is an opportunity to learn. 
@@ -145,10 +147,26 @@ Laptops
 -------
 Laptop use will be expected in class, but should be focused on class-specific material, applications, and research. Whenever classmates are presenting please keep your laptop closed. The quality of the class depends in large part on your attention and active participation, so please respect your fellow classmates and close your lid.
 
-Mobile Phones
--------------
- Please put them on vibrate or turn them off before you come to class. If you have an emergency that requires you to answer your phone during class, please let me know me ahead of time or quietly step out of class to take the call.
-
 Communicate
 -----------
 If you have any questions, would like extra help, or need further instruction, please reach out to me. You can communicate with me via e-mail, sign up for ofice hours, speak with me before class, after class or during break, but please let me know if you have any concerns pertaining to the course.
+
+Statement of Academic Integrity 
+-----------
+Plagiarism is presenting someone else’s work as though it were your own. More specifically, plagiarism is to present as your own: A sequence of words quoted without quotation marks from another writer or a paraphrased passage from another writer’s work or facts, ideas or images composed by someone else.
+
+Statement of Principle 
+-----------
+The core of the educational experience at the Tisch School of the Arts is the creation of original academic and artistic work by students for the critical review of faculty members.  It is therefore of the utmost importance that students at all times provide their instructors with an accurate sense of their current abilities and knowledge in order to receive appropriate constructive criticism and advice.  Any attempt to evade that essential, transparent transaction between instructor and student through plagiarism or cheating is educationally self-defeating and a grave violation of Tisch School of the Arts community standards.  For all the details on plagiarism, please refer to page 10 of the Tisch School of the Arts, Policies and Procedures Handbook, which can be found online at: http://students.tisch.nyu.edu/page/home.html
+
+Statement on Accessibility 
+-----------
+Academic accommodations are available for students with documented disabilities. Please contact the Moses Center for Students with Disabilities at 212 998-4980 for further information.
+
+Statement on Counseling And Wellness
+-----------
+Your health and safety are a priority at NYU. If you experience any health or mental health issues during this course, we encourage you to utilize the support services of the 24/7 NYU Wellness Exchange 212-443-9999. Also, all students who may require an academic accommodation due to a qualified disability, physical or mental, please register with the Moses Center 212-998-4980. Please let your instructor know if you need help connecting to these resources.
+
+Statement on use of Electronic Devices 
+-----------
+Laptops will be an essential part of the course and may be used in class during workshops and for taking notes in lecture. Laptops must be closed during class discussions and student presentations.  Phone use in class is strictly prohibited unless directly related to a presentation of your own work or if you are asked to do so as part of the curriculum.
