@@ -32,7 +32,7 @@
 #### VI. Homework
 * Read - [What Is Code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code)
 * Learn - Eloquent Javascript Chapters [One](http://eloquentjavascript.net/01_values.html) and [Two](http://eloquentjavascript.net/02_program_structure.html)
-* Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](http://www.nyu.edu/lynda)
+* Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](https://www.lynda.com/JavaScript-tutorials/Welcome/81266/87513-4.html)
 * Explore - [Tuts - Design School for Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
 * Answer - the first 2 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle and FizzBuzz](http://eloquentjavascript.net/02_program_structure.html). Create a .html and .js file. Your code answers should be written in the .js file as functions. Try to link your .js file to your .html file so that the functions can be run in the browser console when you load the .html file. In your .html file, you only need to write some basic markup stating the names of the 3 functions to call in the console.  Direct Messange me your Github Repos containing your answer.
 * Additional Recommendations
