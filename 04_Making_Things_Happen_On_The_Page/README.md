@@ -43,6 +43,7 @@ var app = {
   * Read - [A Basic Intro to the jQuery Object](http://www.smashingmagazine.com/2014/05/29/mystery-jquery-object-syntax-basic-introduction)
   * Get API Keys for both the [NY Times API](http://developer.nytimes.com/)(Article is fine for now) and the [Flickr API](https://www.flickr.com/services/apps/create/)
   * Download a JS linter for your text editor[For Sublime 3](https://sublimelinter.readthedocs.io/en/latest/installation.html)
+  * Finalize your midterm idea and build out all HTML, CSS, abd basic JS interaction. Next class we will hook up the API's to your apps.
 
 * For 03/05:
   * Create - a single web page that uses AJAX (through jQuery) to load and display data from a public web api. Your page should also include at least one form of "user interaction". The finished work should include a .html file, a .css file, and a .js file. It is recommended that you use a web API that you intend to use for Assignment #1.
