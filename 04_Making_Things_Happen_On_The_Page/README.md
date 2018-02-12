@@ -36,15 +36,15 @@ var app = {
 #### III. Exercise - [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 
 #### IV. Homework
-* For Thursday 07/20:
+* For 02/26:
   * Read - [Steve Krug "Don't Make Me Think" pp.1 - 49](http://itp.nyu.edu/~kd49/ux/wp-content/uploads/2011/12/Dont_Make_Me_Think-chptr1-5.pdf)
-  * Watch - [Lynda.com: Javascript Essential Training Section 3 Types & Objects + Section 4 - Understanding the Document Object Model (45 mins)](http://www.nyu.edu/lynda)
-  * Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Functions Are Objects (4 mins))](http://www.nyu.edu/lynda)
+  * Watch - [Lynda.com: Javascript Essential Training Section 4- Functions and Objects](https://www.lynda.com/JavaScript-tutorials/Functions-JavaScript/574716/612039-4.html)
   * Read - [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
   * Read - [A Basic Intro to the jQuery Object](http://www.smashingmagazine.com/2014/05/29/mystery-jquery-object-syntax-basic-introduction)
   * Get API Keys for both the [NY Times API](http://developer.nytimes.com/)(Article is fine for now) and the [Flickr API](https://www.flickr.com/services/apps/create/)
+  * Download a JS linter for your text editor[For Sublime 3](https://sublimelinter.readthedocs.io/en/latest/installation.html)
 
-* For Tuesday 07/25:
+* For 03/05:
   * Create - a single web page that uses AJAX (through jQuery) to load and display data from a public web api. Your page should also include at least one form of "user interaction". The finished work should include a .html file, a .css file, and a .js file. It is recommended that you use a web API that you intend to use for Assignment #1.
   * Additional Recommendations
     * [Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)

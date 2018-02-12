@@ -1,0 +1,16 @@
+{
+  "name": "basic_interaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basic_interaction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
