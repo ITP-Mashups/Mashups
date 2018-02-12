@@ -112,7 +112,6 @@ function generateRandomColor(){
   return randomColor;
 }
 
-
 function getData(curSearchTerm){
   //Write AJAX code
   var myURL = "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
