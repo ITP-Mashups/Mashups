@@ -11,10 +11,10 @@ main{
 	width: 98%;
 	margin: 10px auto
 }
-img{
+img {
 	display: block;
-	width: 80%;
 	height: 80%;
+	width: auto;
 	margin: 0 auto;
 }
 .flickrArticle{

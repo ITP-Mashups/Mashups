@@ -5,8 +5,8 @@ var app = {
 
 	getNYTimesData: function() {
 		console.log("Getting NY Times Data");
-
-		var nyTimesURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=0&sort=newest&api-key=";
+		var searchTerm = 'Trump';
+		var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + searchTerm +'&page=0&sort=newest&api-key=';
 		var myNYTimesAPIKey = "cc1de15c771047dab592e892dd6faa54";
 		var nyTimesReqURL = nyTimesURL + myNYTimesAPIKey;
 
@@ -24,7 +24,7 @@ var app = {
 				console.log(theArticles);
 
 				//Clear out the container
-				$('#new-container').html("");
+				$('.news-container').html("");
 
 				for (var i = 0; i < theArticles.length; i++){
 					app.getFlickrData(theArticles[i]);
@@ -35,7 +35,7 @@ var app = {
 
 	getFlickrData: function(theNYTObj) {
 		console.log("Get Flickr Data");
-
+		
 		var theTerm = theNYTObj.section_name || 'news';
 
 		var flickrURL = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=';
@@ -78,6 +78,6 @@ var app = {
 		htmlString +=	'<img src="' + theImageURL + '">';
 		htmlString += '</div>';
 
-		$('#news-container').append(htmlString);
+		$('.news-container').append(htmlString);
 	}, 
 }

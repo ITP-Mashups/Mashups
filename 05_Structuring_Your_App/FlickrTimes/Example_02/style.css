@@ -1,14 +1,19 @@
-
-
-.flickr-article-box{
+.flickr-article-box {
 	float: left;
 	width: 300px;
 	height: 400px;
 	text-align: center;
 }
 
-img{
+h1 {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+img {
 	display: block;
-	width: 80%;
+	height: 40%;
+	width: auto;
 	margin: 5px auto;
 }

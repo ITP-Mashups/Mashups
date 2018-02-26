@@ -72,10 +72,3 @@ var app = {
 		});
 	}
 }
-
-
-//Code to be executed once the page has fully loaded
-$(document).ready(function(){
-	console.log("LOADED!!!!");
-	app.initialize();
-});		

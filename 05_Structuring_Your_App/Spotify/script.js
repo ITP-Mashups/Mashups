@@ -36,30 +36,30 @@ var app = {
 	//This is the search to spotify's track api, with the token in an authorization header
 	searchTracks: function(token) {
 		 $.ajax({
-	        url: "https://api.spotify.com/v1/tracks/7CZdd0S4WTktuiiARS8pY4",
-	        dataType: "json",
-	        headers: {
-				"Content-Type": "application/json",
-				"Authorization": "Bearer " + token
-			},
-	        success: function(data) {
-	            var trackName = data.name;
-	            var url = data.preview_url;
+        url: "https://api.spotify.com/v1/tracks/7CZdd0S4WTktuiiARS8pY4",
+        dataType: "json",
+        headers: {
+					"Content-Type": "application/json",
+					"Authorization": "Bearer " + token
+				},
+        success: function(data) {
+            var trackName = data.name;
+            var url = data.preview_url;
 
 
-	            var audioElement = document.createElement('audio');
-	            audioElement.src = data.preview_url;
-	            audioElement.autoplay = 'true';
-	            audioElement.controls = 'true';
+            var audioElement = document.createElement('audio');
+            audioElement.src = data.preview_url;
+            audioElement.autoplay = 'true';
+            audioElement.controls = 'true';
 
-	            $('.title').html(trackName);
-	            $('.the-track').html(audioElement);
-	           
-	        },
+            $('.title').html(trackName);
+            $('.the-track').html(audioElement);
+           
+        },
 
-	        error: function() {
-	          console.log("Error retrieving spotify API");
-	        }
+        error: function() {
+          console.log("Error retrieving spotify API");
+        }
 	    });
 
 	}

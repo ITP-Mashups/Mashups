@@ -49,7 +49,7 @@ var app = {
 
 				// tempFlickrData.forEach(function(fD){
 				// 	if(fD.url_o){
-				// 		flickrData.push(fD);
+				// 		app.flickrData.push(fD);
 				// 	}
 				// });
 
@@ -62,8 +62,8 @@ var app = {
 
 	getNYTimesData: function() {
 		console.log("Get NY Times Data");
-
-		var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=0&sort=newest&api-key=';
+		var currentSearchWord = 'apple';
+		var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + currentSearchWord + '&page=0&sort=newest&api-key=';
 		var myNYKey = 'cc1de15c771047dab592e892dd6faa54';
 		var nyTimesReqURL = nyTimesURL + myNYKey;
 		console.log(nyTimesReqURL);
