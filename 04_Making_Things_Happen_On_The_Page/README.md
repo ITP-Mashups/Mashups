@@ -44,15 +44,3 @@ var app = {
   * Get API Keys for both the [NY Times API](http://developer.nytimes.com/)(Article is fine for now) and the [Flickr API](https://www.flickr.com/services/apps/create/)
   * Download a JS linter for your text editor[For Sublime 3](https://sublimelinter.readthedocs.io/en/latest/installation.html)
   * Finalize your midterm idea and build out all HTML, CSS, abd basic JS interaction. Next class we will hook up the API's to your apps.
-
-* For 03/05:
-  * Create - a single web page that uses AJAX (through jQuery) to load and display data from a public web api. Your page should also include at least one form of "user interaction". The finished work should include a .html file, a .css file, and a .js file. It is recommended that you use a web API that you intend to use for Assignment #1.
-  * Additional Recommendations
-    * [Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
-    * [Working With Selections](http://learn.jquery.com/using-jquery-core/working-with-selections/)
-    * [Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/) 
-    * [Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
-  * [A Comprehensive Look at Events in jQuery](http://www.sitepoint.com/comprehensive-events-jquery)
-  * [What Is JSONP All About](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
-  * [jQuery's JSONP Explained](https://www.sitepoint.com/jsonp-examples/?utm_source=javascriptweekly&utm_medium=email)
-  * [Variable and Function Hoisting](http://designpepper.com/blog/drips/variable-and-function-hoisting)
