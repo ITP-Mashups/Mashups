@@ -23,7 +23,7 @@ var app = {
 		//console.log("Get Flickr Data");
 		var flickrURL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&format=json&nojsoncallback=1&extras=url_o&text=";
 		var currentSearchWord = "apple";
-		var myFlickrKey = '&api_key=' + '22ca0f0cddec6dbdcd284379a4473569';
+		var myFlickrKey = '&api_key=' + 'YOUR API KEY';
 		
 		var flickrReqURL = flickrURL + currentSearchWord + myFlickrKey;
 
@@ -64,7 +64,7 @@ var app = {
 		console.log("Get NY Times Data");
 		var currentSearchWord = 'apple';
 		var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + currentSearchWord + '&page=0&sort=newest&api-key=';
-		var myNYKey = 'cc1de15c771047dab592e892dd6faa54';
+		var myNYKey = 'YOUR API KEY';
 		var nyTimesReqURL = nyTimesURL + myNYKey;
 		console.log(nyTimesReqURL);
 		$.ajax({

@@ -7,7 +7,7 @@ var app = {
 		console.log("Getting NY Times Data");
 		var searchTerm = 'Trump';
 		var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + searchTerm +'&page=0&sort=newest&api-key=';
-		var myNYTimesAPIKey = "cc1de15c771047dab592e892dd6faa54";
+		var myNYTimesAPIKey = "YOUR API KEY";
 		var nyTimesReqURL = nyTimesURL + myNYTimesAPIKey;
 
 		$.ajax({
@@ -39,7 +39,7 @@ var app = {
 		var theTerm = theNYTObj.section_name || 'news';
 
 		var flickrURL = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=';
-		var flickrKey = '22ca0f0cddec6dbdcd284379a4473569';
+		var flickrKey = 'YOUR API KEY';
 		var flickrQueryParams = '&text=' + theTerm + '&format=json&nojsoncallback=1&extras=url_o';
 		var flickrReqURL = flickrURL + flickrKey + flickrQueryParams;
 
