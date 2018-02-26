@@ -5,6 +5,11 @@
 
 #### II. Discussion
 * [AJAX with jQuery](http://learn.jquery.com/ajax/)
+* CORS errors
+	* Use [JSONP](https://www.sitepoint.com/jsonp-examples/)
+	* Use the [enable-CORS extension](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en)
+	* [Disable Chrome's web security](https://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome) (undo once you're done!)
+	* If using own server, [enable cross origin in .htaccess](https://stackoverflow.com/questions/13421463/htaccess-access-control-allow-origin)
 
 #### III. Exercise I - WikiSearch
 * [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
