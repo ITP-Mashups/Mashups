@@ -52,10 +52,4 @@ var app = {
 			}
 		});
 	}
-
 }
-
-
-
-//Execute the wikipedia API call function with the correct search term var as the argument
-searchWikipedia(currentWord);
