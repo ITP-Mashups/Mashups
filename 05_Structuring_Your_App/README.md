@@ -29,5 +29,3 @@
 	* [Javascript Is Sexy - Understand Javascript Callback Functions](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
 	* [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Understanding Variable Scope (5:30 mins)](http://www.nyu.edu/lynda)
 	* [What Is JSONP All About](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
-	* [jQuery's JSONP Explained](https://www.sitepoint.com/jsonp-examples/?utm_source=javascriptweekly&utm_medium=email)
-	* [Variable and Function Hoisting](http://designpepper.com/blog/drips/variable-and-function-hoisting)
