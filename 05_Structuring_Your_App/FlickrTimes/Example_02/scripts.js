@@ -74,7 +74,7 @@ var app = {
 
 	makeHTML: function(theObj,theImageURL) {
 		var htmlString = '<div class="flickr-article-box">';
-		htmlString +=	'<h1>' + theObj.headline.main + '</h1>';
+		htmlString +=	'<a href='+ theObj.web_url +'><h1>' + theObj.headline.main + '</h1></a>';
 		htmlString +=	'<img src="' + theImageURL + '">';
 		htmlString += '</div>';
 
