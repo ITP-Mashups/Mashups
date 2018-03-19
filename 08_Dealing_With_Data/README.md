@@ -2,11 +2,7 @@
 
 #### I. Presentations - Project #1
 
-#### II. D & D Thinking
-* [Hats Lecture](https://dl.dropboxusercontent.com/u/9648298/HATS.pdf) by Martin Bravo
-* [Friend Forecast by Martin Bravo](https://github.com/bravomartin/friend-forecast)
-
-#### III. Data Organization & Management
+#### II. Data Organization & Management
 * [Basic Underscore Example](https://github.com/ITP-Mashups/Mashups/blob/master/08_Dealing_With_Data/Basic_Underscore/friends.js)
 * Manipulating Strings
 	* [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -24,12 +20,12 @@
 	* [ALT AJAX jQuery Patterns](https://github.com/ITP-Mashups/Mashups/tree/master/08_Dealing_With_Data/Alt_AJAX_jQuery_Patterns)
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### IV. D3 Intro  
+#### III. D3 Intro  
 * Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
 * Polygaph - [Film Dialogue](http://polygraph.cool/films/)  
 
-#### V. Homework
-* For Wednesday 8/02:
+#### IV. Homework
+* For Monday 3/26:
 	* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
 	* Explore - [Fathom.info](https://fathom.info/projects/) Projects
 	* Explore - [D3](http://d3js.org/)
