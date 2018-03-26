@@ -53,7 +53,7 @@ var app = {
 	parseData: function() {
 		//Underscore EACH
 		_.each(app.WUC.today, function(el){
-			//console.log(el);
+			console.log(el);
 		});
 
 		//Pull Out updates using EACH and PUSH
@@ -85,6 +85,8 @@ var app = {
 		var houseEvents = _.filter(app.WUC.today, function(el){
 			return el.chamber == "house";
 		});
+
+
 		//console.log("House: " + houseEvents.length);
 
 		//Senate Events
@@ -92,7 +94,7 @@ var app = {
 			return el.chamber == "senate";
 		});
 		//console.log("Senate: " + senateEvents.length);
-		//console.log(senateEvents);
+		console.log(senateEvents);
 
 		// _.each(senateEvents, function(el){
 		// 	console.log(el.update);
@@ -100,15 +102,15 @@ var app = {
 
 		//Underscore MAP
 		//Samuel L. Jackson-ify the Updates
-		// var sljUpdates = _.map(updates, function(el){
-		// 	//return  el + " Godammit";
-		// 	//return el.replace(".", " Godammit! ");
-		// 	//return el.replace(/./, " Godammit! ");
-		// 	//return el.replace(/\./, " Godammit! ");
-		// 	return el.replace(/\.$/, " GODDAMIT!");
-		// });
+		var sljUpdates = _.map(updates, function(el){
+			//return  el + " Godammit";
+			//return el.replace(".", " Godammit! ");
+			//return el.replace(/./, " Godammit! ");
+			//return el.replace(/\./, " Godammit! ");
+			return el.replace(/\.$/, " GODDAMIT!");
+		});
 		// console.log(sljUpdates);
-		// app.addToPage(sljUpdates);
+		app.addToPage(sljUpdates);
 		// _.each(sljUpdates, function(el){
 		// 	$('#congressData').append("<p>" + el + "</p>");
 		// });
@@ -119,7 +121,7 @@ var app = {
 		_.each(updates, function(el){
 			allWords.push(el.split(" "));
 		});
-		//console.log(allWords);
+		console.log(allWords);
 
 		//Use map
 		var updateWords = _.map(updates, function(el){
@@ -133,11 +135,11 @@ var app = {
 
 		//Create a single array using FLATTEN
 		var flatArray = _.flatten(updateWords);
-		//console.log(flatArray);
+	//	console.log(flatArray);
 
 		//Remove duplicates using UNIQ
 		var uniqueWords = _.uniq(flatArray);
-		//console.log(uniqueWords);
+		console.log(uniqueWords);
 
 		//Add Data to events with legislators
 		//Underscore FILTER

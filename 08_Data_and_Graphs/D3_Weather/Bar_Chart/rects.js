@@ -13,6 +13,7 @@ function makeD3Chart(dataset){
 	var dataMin = d3.min(dataset, function(d){ return d.day; });
 	var dataMax = d3.max(dataset, function(d) { return d.day; });
 
+
 	var yScale = d3.scale.linear()
 		.domain([dataMin, dataMax])
 		.range([50,h - 50]);
@@ -45,14 +46,6 @@ function makeD3Chart(dataset){
 			var color = 'rgb(' + red + ',20,80)';
 			return color;
 		})
-
-		// .attr("class", "rects")
-		// .transition()
-		// .attr("y", function(d){
-		//  	return h - d.day;
-		// })
-		// .duration(5000);
-
 		.on('click', function(d){
 			console.log("The temp is " + d.day);
 			d3.select(this)
@@ -61,6 +54,15 @@ function makeD3Chart(dataset){
 				.attr("fill", "blue")
 				.duration(1000);
 		});
+
+		// .attr("class", "rects")
+		// .transition()
+		// .attr("y", function(d){
+		//  	return h - d.day;
+		// })
+		// .duration(5000);
+
+		
 
 	svg.selectAll("text")
 		.data(dataset)
@@ -85,7 +87,7 @@ function requestWeatherData(num){
 
 	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?id=524901&units=imperial&cnt=' + num;
 	
-	var weatherKEY = '&appid=' + 'YOUR API KEY';
+	var weatherKEY = '&appid=' + '30f35ce1e91c4de00c6a28527c5cf22d';
 
 	$.ajax({
 		url: weatherURL + weatherKEY,
