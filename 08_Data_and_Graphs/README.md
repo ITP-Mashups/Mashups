@@ -16,14 +16,14 @@
 	* [Mulitple Simultnaeous AJAX Requests In jQuery](http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/)
 * Code Examples
 	* [ALT AJAX jQuery Patterns](https://github.com/ITP-Mashups/Mashups/tree/master/08_Dealing_With_Data/Alt_AJAX_jQuery_Patterns)
-	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
+	* [Sunlight Foundation API](https://projects.propublica.org/api-docs/congress-api/)
 
 #### II. SVGs
 * [SVGs - Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
 	* [SVGs- Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
 * [SVG Styling Properties](http://www.w3.org/TR/SVG/styling.html#SVGStylingProperties)
-* Reponsive SVGs  
+* Reponsive SVGs
 	* [How To Make SVGs Responsive](https://css-tricks.com/scale-svg/)
 	* [Making SVGs Reponsive with CSS](http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/)
 * [Stack Overflow - jQuery Append Not Working with SVG???](http://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element/7381068#7381068)

@@ -16,17 +16,26 @@ function getCongressData(){
 	}
 	var yyyy = today.getFullYear();
 	//Construct string	
-	var queryDay = yyyy + '-' + mm + '-' + dd;
+	var queryDay = yyyy + '/' + mm + '/' + dd;
 	console.log(queryDay);
-	
-	var myKey =	'YOUR-KEY-GOES-HERE';
-	var myURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay;
-
+	var myKey =	'F0XqUcS8HkuRGJZXzXyWLJDIY26KlEB0IAMqZ4hn';
+	// Using today's day
+	var myURL = 'https://api.propublica.org/congress/v1/house/floor_updates/' + queryDay + '.json';
+	// Using a different date to get more data
+	myURL = 'https://api.propublica.org/congress/v1/senate/floor_updates/2017/05/02.json';
 	//Make AJAX request
+
+	$.ajaxSetup({
+		beforeSend: 
+		function(xhr) {	
+			xhr.setRequestHeader("X-API-Key", myKey)
+		},
+	});
+
 	$.ajax({
 		url: myURL,
 		type: 'GET',
-		dataType: 'jsonp',
+		dataType: 'json',
 		error: function(data){
 			console.log("We got problems");
 			console.log(data.status);

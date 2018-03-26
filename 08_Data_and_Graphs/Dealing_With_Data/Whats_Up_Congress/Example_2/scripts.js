@@ -1,12 +1,7 @@
 var app = {
 
-	WUC : {
-		asyncCount : 0,
-		returnCount : 0
-	}, 
-
-	myKey :	'YOUR-KEY-GOES-HERE',
-
+	myKey :	'F0XqUcS8HkuRGJZXzXyWLJDIY26KlEB0IAMqZ4hn',
+	WUC : {},
 	getCongressData: function() {
 		//Create necessary date structure for AJAX request
 		var today = new Date();
@@ -22,14 +17,22 @@ var app = {
 		var yyyy = today.getFullYear();
 		//Construct string
 		var queryDay = yyyy + '-' + mm + '-' + dd;
-
+		// Using today's day
 		var congressURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=' + app.myKey;
-
+		// Using a different date to get more data
+		congressURL = 'https://api.propublica.org/congress/v1/senate/floor_updates/2017/05/02.json';
 		//Make AJAX request
+		$.ajaxSetup({
+			beforeSend: 
+			function(xhr) {	
+				xhr.setRequestHeader("X-API-Key", app.myKey)
+			},
+		});
+
 		$.ajax({
 			url: congressURL,
 			type: 'GET',
-			dataType: 'jsonp',
+			dataType: 'json',
 			error: function(data){
 				console.log("We got problems");
 				console.log(data.status);
@@ -50,7 +53,7 @@ var app = {
 		});
 	},
 
-	parseData: function() {
+	parseData: function() {	
 		//Underscore EACH
 		_.each(app.WUC.today, function(el){
 			console.log(el);
@@ -59,50 +62,26 @@ var app = {
 		//Pull Out updates using EACH and PUSH
 		var allUpdates = [];
 		_.each(app.WUC.today, function(el){
-			allUpdates.push(el.update);
+			allUpdates.push(el.floor_actions);
 		});
 		//console.log(allUpdates);
 
 		//Alt method using Underscore PLUCK
-		var updates = _.pluck(app.WUC.today, 'update');
-		console.log(updates);
+		var updates = _.pluck(app.WUC.today, 'floor_actions');
+		updates = updates[0];
+		var descriptions = _.pluck(updates, 'description');
+		console.log(descriptions);
 		//Add the updates to the page
 		// _.each(updates, function(el){
 		// 	$('#congressData').append("<p>" + el + "</p>");
 		// });
 
 		//Or
-		app.addToPage(updates);
-
-		//Underscore FILTER
-		//Which updates had vote?
-		var voteEvents = _.filter(updates, function(el){
-			return el.match('vote');
-		});
-		console.log(voteEvents);
-
-		//House Events
-		var houseEvents = _.filter(app.WUC.today, function(el){
-			return el.chamber == "house";
-		});
-
-
-		//console.log("House: " + houseEvents.length);
-
-		//Senate Events
-		var senateEvents = _.filter(app.WUC.today, function(el){
-			return el.chamber == "senate";
-		});
-		//console.log("Senate: " + senateEvents.length);
-		console.log(senateEvents);
-
-		// _.each(senateEvents, function(el){
-		// 	console.log(el.update);
-		// });
+		app.addToPage(descriptions);
 
 		//Underscore MAP
 		//Samuel L. Jackson-ify the Updates
-		var sljUpdates = _.map(updates, function(el){
+		var sljUpdates = _.map(descriptions, function(el){
 			//return  el + " Godammit";
 			//return el.replace(".", " Godammit! ");
 			//return el.replace(/./, " Godammit! ");
@@ -118,13 +97,13 @@ var app = {
 		//Create an array of words for each update
 		//Use EACH + PUSH
 		var allWords = [];
-		_.each(updates, function(el){
+		_.each(descriptions, function(el){
 			allWords.push(el.split(" "));
 		});
 		console.log(allWords);
-
+		debugger;
 		//Use map
-		var updateWords = _.map(updates, function(el){
+		var updateWords = _.map(descriptions, function(el){
 			return el.split(" ");
 		});
 		//console.log(updateWords);
@@ -140,28 +119,6 @@ var app = {
 		//Remove duplicates using UNIQ
 		var uniqueWords = _.uniq(flatArray);
 		console.log(uniqueWords);
-
-		//Add Data to events with legislators
-		//Underscore FILTER
-		var legislators = _.filter(app.WUC.today, function(el){
-			return el.legislator_ids.length !== 0;
-		});
-		//console.log(legislators);
-
-		//Alt way - Underscore PLUCK + FILTER
-		var legIDs = _.pluck(app.WUC.today, 'legislator_ids');
-		//console.log(legIDs);
-		var filteredLegIDs = _.filter(legIDs, function(el){
-			return el.length > 0;
-		});
-		//console.log(filteredLegIDs);
-		var justTheIDs = [];
-		_.each(filteredLegIDs, function(el){
-			_.each(el, function(id){
-				justTheIDs.push(id);
-			});
-		});
-		//console.log(justTheIDs);
 	},
 
 	addToPage: function(pageData) {
@@ -187,69 +144,6 @@ var app = {
 		console.log(app.WUC.asyncCount);
 
 	},
-
-
-	makeInfoRequest: function(personID, theObj) {
-		console.log("Making Request For: " + personID);
-		var personURL = 'http://congress.api.sunlightfoundation.com/legislators?bioguide_id=' + personID + '&apikey=';
-
-		$.ajax({
-			url: personURL + app.myKey,
-			type: 'GET',
-			dataType: 'jsonp',
-			error: function(data){
-				console.log(data);
-			},
-			success: function(data){
-				console.log("Individual Request");
-				console.log(data);
-				console.log(data.results[0].twitter_id);
-				if (!theObj.twitter_id){
-					theObj.twitter_id = [];
-				}
-				theObj.twitter_id.push(data.results[0].twitter_id);
-
-				app.WUC.returnCount++;
-
-				//Check to see if we have data for everyone
-				if (app.WUC.returnCount == app.WUC.asyncCount ){
-					console.log('Everyone is here!!!');
-					//Put all of the data on the page!!!!!
-					app.createDomElements(app.WUC.today);
-				}
-				else{
-					var remaining = app.WUC.asyncCount - app.WUC.returnCount;
-					console.log('Almost, waiting on ' + remaining + ' more...');
-				}
-			}
-		});
-	},
-
-	//Function for generating HTML Markup
-	//A precursor to templates!
-	createDomElements: function(obj) {
-		//console.log(obj);
-		var HTMLString = '';
-		HTMLString += '<ol>';
-		for (var i = 0; i < obj.length; i++) {
-			if (obj[i].chamber == "house") {
-				HTMLString += '<li class="house">' + obj[i].update + '</li>';
-			}
-			else {
-				HTMLString += '<li class="senate">' + obj[i].update + '</li>';
-			}
-			if (obj[i].twitter_id){
-				for (var j = 0; j < obj[i].twitter_id.length; j++){
-					HTMLString += '<a class="twitter" target="_blank" href="http://twitter.com/' + obj[i].twitter_id[j] + '">' +
-					obj[i].twitter_id[j] +
-					'</a>';
-				}
-			}
-		}
-		HTMLString += '<ol>';
-		//Add HTML to the page
-		$('#congressData').html(HTMLString);
-	}
 
 };
 
