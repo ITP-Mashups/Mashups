@@ -101,7 +101,7 @@ function moveTheGroup(theGroupEl, theDataObj, allDataObj){
 		moveH = 0;
 	}
 	
-	//Move individual group
+	// //Move individual group
 	// d3.select(theGroupEl)
 	// 	.transition()
 	// 	.attr("transform", "translate(0," + moveH + ")")
@@ -133,7 +133,7 @@ function moveTheGroup(theGroupEl, theDataObj, allDataObj){
 
 function requestWeatherData(num){
 
-	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=imperial&cnt=' + num;
+	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=New%20York&mode=json&units=imperial&cnt=' + num;
 	var weatherKEY = '&APPID=' + '30f35ce1e91c4de00c6a28527c5cf22d';
 
 	$.ajax({
@@ -147,7 +147,7 @@ function requestWeatherData(num){
 			console.log(data);
 			days = data.list;
 			//console.log(days);
-
+			
 			days.forEach(function(day){
 				day.toggle = 1;
 			});
