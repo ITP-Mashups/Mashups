@@ -83,17 +83,6 @@ Each class there will be homework assignments. Homework may include reading, wat
 
 Class time will be spent going over assignments. Expect to be asked to show your work every class. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your work must be completed on time prior to class.
 
-We will be using github to turn in our assignments. For those new to git, we will go over basic usage in class. 
-
-**Assignment Workflow**  
-   1. To start, [**fork** the homework repository](https://guides.github.com/activities/forking/).    
-   2. [**Clone**](http://gitref.org/creating/#clone) the forked repository to your computer.    
-   3. Modify the files and [**commit**](http://gitref.org/basic/#commit) changes to submit your work.   
-   4. [**Push**](http://gitref.org/remotes/#push)/sync the changes up to GitHub.    
-   5. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request/) on the original repository to turn in the assignment. Do not merge the Pull Request.
-
-I also recommend using Github Pages to host your projects, but you are welcome to use any hosting services that you are comofrtable with.
-
 Online Journal
 ---------------
 You are expected to keep some form of an online journal. For each assignment, you must:
