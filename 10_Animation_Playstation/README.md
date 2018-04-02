@@ -40,7 +40,8 @@
 
 #### VI. Homework
 * For Monday 4/9
-	* Work on your final! Be prepared to pitch it next class and update us on your progress
+	* Work on your final (due April 23)! Be prepared to pitch it next class and update us on your progress
+	* Using the same API as last week, create a P5 sketch visualizing your data
 	* Read: [Tips on Debugging](https://p5js.org/learn/debugging.html)
 	* Watch: [Working with Data p5 Tutorial](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 	* Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
