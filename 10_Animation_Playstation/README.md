@@ -29,14 +29,16 @@
 	* [WebGL in P5](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5)
 * [ThreeJS](http://threejs.org/)
 	* [ThreeJS Examples](http://threejs.org/examples/)
-	* [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene)
+	* [ThreeJS Getting Started](https://threejs.org/docs/index.html#manual/introduction/Creating-a-scene)
 	* [Three.js 101 : Hello World!](https://medium.com/@necsoft/three-js-101-hello-world-part-1-443207b1ebe1)
 	* [HTML5 Rocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/) 
 	* [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
 	* [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
 	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
+	
+#### V. In class lab: [The Giphy API](https://developers.giphy.com/)
 
-#### V. Homework
+#### VI. Homework
 * For Monday 4/9
 	* Work on your final! Be prepared to pitch it next class and update us on your progress
 	* Read: [Tips on Debugging](https://p5js.org/learn/debugging.html)
