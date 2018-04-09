@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Plyr Example</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.1.0/plyr.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="timeUpdate"></div>
+    <input type="text" id="search" /><button id="submit">Search</button>
+    <video id="player"></video>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://cdn.plyr.io/3.1.0/plyr.js"></script>
+    <script src="script.js"></script>
+    <script>
+      //Code to be executed once the page has fully loaded
+      $(document).ready(function(){
+        app.initialize();
+      });   
+    </script>
+  </body>
+</html>
+
+
+
