@@ -36,7 +36,7 @@
 * [More examples](https://bl.ocks.org)
 
 #### IV. Other SVG & Graphing Libraries
-* [RaphaelJS](http://raphaeljs.com/)
+* [RaphaelJS](http://dmitrybaranovskiy.github.io/raphael/)
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
 
@@ -44,8 +44,8 @@
 * Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, sound, etc.)
 
 #### VI. Homework
-* For Monday 4/23:
-	* Create - Using the API from Project #1 OR a new data serving API of your choosing, create a web page that pulls in data and represents it using D3JS or p5. Be prepared to share your work in class. 
+* For Monday 4/2:
+	* Create - Using the API from Project #1 OR a new data serving API of your choosing, create a web page that pulls in data and represents it using D3JS. Be prepared to share your work in class. 
  	* Explore - [p5JS](http://p5js.org/)
 	* Watch [hello p5](http://hello.p5js.org/)
 	* Read - [p5 Get Started](http://p5js.org/get-started/)

@@ -10,7 +10,6 @@
 #### III. Audio
 * Web Audio API
 	* [HTML5 Rocks: Getting Started With Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
-	* [Web Audio API by Boris Smus](http://chimera.labs.oreilly.com/books/1234000001552/index.html) - Ch.1 & 2
 	* [Canvas Deep Dive - Intro to Web Audio](http://joshondesign.com/p/books/canvasdeepdive/chapter12.html#overview) by [Josh Marinacci](https://twitter.com/joshmarinacci)
 	* [StuartMemo.com - Web Audio Projects & Tutorials](http://stuartmemo.com/)
 	* [Stuart Memo Video - How to Create Audio Using the Web Audio API](http://www.youtube.com/watch?v=oHBx_kMmsRE)
@@ -34,13 +33,14 @@
 * [HTML5 Rocks - Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 * [HTML5 Video Events & API](http://www.w3.org/2010/05/video/mediaevents.html)
 * HTML5 Video Libraries
-	* [PopcornJS](http://popcornjs.org/) - [OReilly Video Lesson Prototype](http://oreillymedia.github.io/prototype-video-lesson/)
+	* [Plyr](https://github.com/sampotts/plyr)
+	* [PopcornJS](http://popcornjs.org/)
 	* [Youtube IFrame Player API](https://developers.google.com/youtube/js_api_reference)
 	* [VideoJS](http://www.videojs.com/)
 
 #### V. Homework
-* For Thursday 8/10
-	* Finish your final projects!
+* For Monday 4/16
+	* Work on your final projects (Due 4/23)!  Be prepared to come in next week and conduct user testing
 	* [Github Pages](https://github.com/ITP-Mashups/Mashups/tree/master/05_Structuring_Your_App/Github_Pages)
 * Reading
 	* Revisit:
