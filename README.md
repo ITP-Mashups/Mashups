@@ -38,13 +38,13 @@ Schedule
 
 #### **PART II: Client-Side Javascript Libraries**
 
-#### **3/26:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/09_Graphs_on_Graphs_on_Graphs)
+#### **3/26:** [Graphs on Graphs on Graphs](https://github.com/ITP-Mashups/Mashups/tree/master/08_Graphs_on_Graphs_on_Graphs)
 
-#### **4/2:** [Animation Playstation](https://github.com/ITP-Mashups/Mashups/tree/master/10_Animation_Playstation)
+#### **4/2:** [Animation Playstation](https://github.com/ITP-Mashups/Mashups/tree/master/09_Animation_Playstation)
 
-#### **4/9:** [Sound & Video](https://github.com/ITP-Mashups/Mashups/tree/master/11_Sound_and_Video)
+#### **4/9:** [Sound & Video](https://github.com/ITP-Mashups/Mashups/tree/master/10_Sound_and_Video)
 
-#### **4/16**: [Databases & Final Project Workshop]
+#### **4/16**: [Databases & Final Project Workshop](https://github.com/ITP-Mashups/Mashups/tree/master/11_Database)
 
 #### **4/23**: Final Project DUE
 

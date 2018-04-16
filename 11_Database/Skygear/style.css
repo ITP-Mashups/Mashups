@@ -1,0 +1,48 @@
+body {
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+.page {
+    display: none;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.content {
+    padding: 15px;
+}
+
+#page1 {
+    display: block;
+}
+
+h1 {
+    text-align: left;
+}
+
+.error {
+    color: red;
+}
+
+button {
+    display: block;
+    background: #5EC3B7;
+    margin: 10px 0;
+    border-style: none;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: .3rem; /* curved border */
+}
+
+input {
+    border: 1px solid #5EC3B7;
+    padding: 10px;
+    display: block;
+    border-radius: 3px;
+    margin: 5px 0;
+}

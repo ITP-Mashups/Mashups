@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Skygear Example</title>
+</head>
+
+<body>
+    <div class="app">
+        <section class="page" id="page1">
+            <div class="content">
+                <div class="sign-up">
+                    <h1>Sign up</h1>
+                    <input type="email" class="email" placeholder="Enter your email address"/>
+                    <input type="password" class="password" placeholder="Create a Pasword"/>
+                    <button class="sign-up-button">Sign Up</button>
+                </div>
+                <div class="sign-in">
+                    <h1>Sign In</h1>
+                    <input type="email" class="email" placeholder="Enter your email address"/>
+                    <input type="password" class="password"  placeholder="Enter your password"/>
+                    <button class="sign-in-button">Sign in</button>
+                </div>
+                <div class="errors"></div>
+            </div>
+        </section>
+        <section class="page" id="page2">
+            <div class="content hello">
+                Welcome back 
+                <div class="email"></div>
+                <input class="note" placeholder="Enter a new note" />
+                <button class="new-entry">Submit</button>
+                <div class="entries"></div>
+            </div>
+        </section>
+    </div>
+    <!--Skygear CDN-->
+    <script src="https://code.skygear.io/js/polyfill/latest/polyfill.min.js"></script>
+    <script src="https://code.skygear.io/js/skygear/latest/skygear.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
