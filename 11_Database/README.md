@@ -4,7 +4,7 @@
 * [Skygear](https://skygear.io/)
   * [Quickstart Guide](https://docs.skygear.io/guides/intro/quickstart/js/)
   * [User authentication](https://docs.skygear.io/guides/auth/basics/js/)
-  * [Example]()
+  * [Code Example](https://github.com/ITP-Mashups/Mashups/tree/master/11_Database/Skygear)
 
 #### II. Getting your apps online
 * There are a number of services that will host your site for free, using their domain namespace, or with your own domain for a small fee:
